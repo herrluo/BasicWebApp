@@ -14,10 +14,7 @@ public class QueryProcessor {
         } else if (query.contains("name")) {
            return "SUPER_TUTORIUM";
         } else { // TODO extend the programm here
-            if (query.contains("Joe Biden")) {
-                return "President of America";
-            }
+            return "Hello World";
         }
-        return "";
     }
 }
