@@ -21,7 +21,8 @@ public class QueryProcessor {
                     "co-founder of Neuralink and OpenAI" ;
         } else if (query.contains("apple")) {
             return "fruit";
-            
+        } else if (query.contains("1+1=?")) {
+            return "2" ;
         } else { // TODO extend the programm here
             return "";
         }
