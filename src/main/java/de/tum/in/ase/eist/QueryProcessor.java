@@ -15,6 +15,10 @@ public class QueryProcessor {
            return "SUPER_TUTORIUM";
         } else if (query.contains("Joe Biden")) {
             return "President of America";
+        } else if (query.contains("Elon Musk")) {
+            return "Elon Musk a business magnate and investor" + "the founder, CEO, and Chief Engineer at SpaceX" +
+                    "angel investor, CEO, and Product Architect of Tesla, Inc." + "founder of The Boring Company" +
+                    "co-founder of Neuralink and OpenAI" ;
         } else { // TODO extend the programm here
             return "";
         }
