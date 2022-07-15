@@ -23,6 +23,8 @@ public class QueryProcessor {
             return "fruit";
         } else if (query.contains("1+1=?")) {
             return "2" ;
+        } else if (query.contains("Where is Germany?")) {
+            return "Europe";
         } else { // TODO extend the programm here
             return "";
         }
