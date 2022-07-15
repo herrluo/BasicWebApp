@@ -19,6 +19,9 @@ public class QueryProcessor {
             return "Elon Musk a business magnate and investor" + "the founder, CEO, and Chief Engineer at SpaceX" +
                     "angel investor, CEO, and Product Architect of Tesla, Inc." + "founder of The Boring Company" +
                     "co-founder of Neuralink and OpenAI" ;
+        } else if (query.contains("apple")) {
+            return "fruit";
+            
         } else { // TODO extend the programm here
             return "";
         }
